@@ -2,7 +2,7 @@
   <head>
     <meta charset="UTF-8">
     <script src="script.js"></script>
-    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
   </head>
   <body>
     <h1>Visualizacion - AG1 </h1>
@@ -12,7 +12,35 @@
 <br>
     Github: <a href="https://github.com/lpontegc">https://github.com/lpontegc</a>
 <br>
-<h2> Emisiones de CO2 </h2>
+
+
+
+<div>
+  <div>Div 1</div>
+  <div>Div 2</div>
+  <div>Div 3</div>
+
+</div>
+
+<div class="tab">
+  <table>
+    <td>
+  <button class="tabs" onclick="openTab(event, 'ag1')">AG1</button>
+    </td>
+    <td>
+  <button class="tabs" onclick="openTab(event, 'ag2')">AG2</button>
+    </td>
+    <td>
+  <button class="tabs" onclick="openTab(event, 'ag3')">AG3</button>
+    </td>
+    <td>
+  <button class="tabs" onclick="openTab(event, 'seminario')">Seminario</button>
+    </td>
+</div>
+
+<!-- Content AG1 -->
+<div id="ag1" class="tabscontent">
+  <h2> Emisiones de CO2 </h2>
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQF1PC23t1L2CE2DMsHGo7dpUGllpIyqbKmLRRvSIeKrt4I_f_O27b4knyNfPe3rSQDpA2sO7hepPIA/pubchart?oid=787526512&amp;format=interactive"></iframe>
 
 <h2>Emisiones CO2 totales</h2>
@@ -29,9 +57,20 @@
 
 <iframe title="Top 10 emisiones CO2 en 2018" aria-label="Split Bars" id="datawrapper-chart-289R0" src="https://datawrapper.dwcdn.net/289R0/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="445"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
-<h1>Visualizacion - AG2 </h1>
+</div>
+
+<!-- Content AG2 -->
+<div id="ag2" class="tabscontent">
+  <h1>Visualizacion - AG2 </h1>
 
 <a href="https://ibb.co/j54n0kZ"><img src="https://i.ibb.co/vBz0y4v/Dashboard-AG2.png" alt="Dashboard-AG2" border="0"></a>
-<h1>Visualizacion - AG3 </h1>
+
+<h2>Extra</h2>
+<a href="https://ibb.co/bdTHrHn"><img src="https://i.ibb.co/Th6KHK5/Films-x-IMDB-Rating.png" alt="Films-x-IMDB-Rating" border="0"></a>
+</div>
+<!-- Content AG3 -->
+<div id="ag3" class="tabscontent">
+  <h1>Visualizacion - AG3 </h1>
+</div>
   </body>
 </html>
