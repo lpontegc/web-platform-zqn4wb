@@ -3,43 +3,35 @@
     <meta charset="UTF-8">
     <script src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="styles.css"> 
+   
   </head>
   <body>
-    <h1>Visualizacion - AG1 </h1>
-    <p>Nombre: Luis Ponte </p>
-<br>    
-    URL: <a href="https://web-platform-zqn4wb.stackblitz.io">https://web-platform-zqn4wb.stackblitz.io</a>
+    <div class="header">07MBIG - Visualizacion de datos</div>
+
+    <p>Nombre: Luis Ponte </p>   
+    <p>URL: <a href="https://web-platform-zqn4wb.stackblitz.io">https://web-platform-zqn4wb.stackblitz.io</a></p>
+    <p>Repositorio <a href="https://github.com/lpontegc">https://github.com/lpontegc</a></p>
 <br>
-    Github: <a href="https://github.com/lpontegc">https://github.com/lpontegc</a>
-<br>
-
-
-
-<div>
-  <div>Div 1</div>
-  <div>Div 2</div>
-  <div>Div 3</div>
-
-</div>
-
 <div class="tab">
   <table>
     <td>
-  <button class="tabs" onclick="openTab(event, 'ag1')">AG1</button>
+  <button class="tabs type1" onclick="openTab(event, 'ag1')">AG1</button>
     </td>
     <td>
-  <button class="tabs" onclick="openTab(event, 'ag2')">AG2</button>
+  <button class="tabs type2" onclick="openTab(event, 'ag2')">AG2</button>
     </td>
     <td>
-  <button class="tabs" onclick="openTab(event, 'ag3')">AG3</button>
+  <button class="tabs type1" onclick="openTab(event, 'ag3')">AG3</button>
     </td>
     <td>
-  <button class="tabs" onclick="openTab(event, 'seminario')">Seminario</button>
+  <button class="tabs type2" onclick="openTab(event, 'seminario')">Seminario</button>
     </td>
+  </table>
 </div>
 
 <!-- Content AG1 -->
 <div id="ag1" class="tabscontent">
+  <h1>Visualizacion - AG1 </h1>
   <h2> Emisiones de CO2 </h2>
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQF1PC23t1L2CE2DMsHGo7dpUGllpIyqbKmLRRvSIeKrt4I_f_O27b4knyNfPe3rSQDpA2sO7hepPIA/pubchart?oid=787526512&amp;format=interactive"></iframe>
 
