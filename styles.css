@@ -113,5 +113,7 @@ text-align: center;
   border-top: none;
 }
 
-
-
+#viz1,#viz2,#viz3{
+height: 400px;
+width: 600px;
+}
