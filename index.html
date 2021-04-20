@@ -34,15 +34,15 @@
 <div id="ag1" class="tabscontent">
   <h1>Visualizacion - AG1 </h1>
   <h2> Emisiones de CO2 </h2>
-  <iframe width="650" height="371" seamless frameborder="0" scrolling="no"  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQF1PC23t1L2CE2DMsHGo7dpUGllpIyqbKmLRRvSIeKrt4I_f_O27b4knyNfPe3rSQDpA2sO7hepPIA/pubchart?oid=787526512&amp;format=interactive&sizeType=1&foo"></iframe>
+  <iframe id = "iframe1" width="650" height="371" seamless frameborder="0" scrolling="no"  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQF1PC23t1L2CE2DMsHGo7dpUGllpIyqbKmLRRvSIeKrt4I_f_O27b4knyNfPe3rSQDpA2sO7hepPIA/pubchart?oid=787526512&amp;format=interactive&sizeType=1&foo"></iframe>
 
   <h2>Emisiones CO2 totales</h2>
 
-  <iframe width="650" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQF1PC23t1L2CE2DMsHGo7dpUGllpIyqbKmLRRvSIeKrt4I_f_O27b4knyNfPe3rSQDpA2sO7hepPIA/pubchart?oid=535509934&amp;format=interactive&sizeType=1&foo"></iframe>
+  <iframe id = "iframe2" width="650" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQF1PC23t1L2CE2DMsHGo7dpUGllpIyqbKmLRRvSIeKrt4I_f_O27b4knyNfPe3rSQDpA2sO7hepPIA/pubchart?oid=535509934&amp;format=interactive&sizeType=1&foo"></iframe>
 
   <h2>Cotizaciones y volumen</h2>
 
-  <iframe width="650" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQF1PC23t1L2CE2DMsHGo7dpUGllpIyqbKmLRRvSIeKrt4I_f_O27b4knyNfPe3rSQDpA2sO7hepPIA/pubchart?oid=472933330&amp;format=interactive"></iframe>
+  <iframe id = "iframe3" width="650" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQF1PC23t1L2CE2DMsHGo7dpUGllpIyqbKmLRRvSIeKrt4I_f_O27b4knyNfPe3rSQDpA2sO7hepPIA/pubchart?oid=472933330&amp;format=interactive"></iframe>
 
   <iframe title="Emisiones CO2" aria-label="chart" id="datawrapper-chart-0reYj" src="https://datawrapper.dwcdn.net/0reYj/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400"></iframe>
   <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
@@ -86,4 +86,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3plus/1.9.2/d3plus.full.min.js"></script>
   <script src="script.js"></script>
+  <script>
+    var iframe = document.getElementById('iframe1');
+    iframe.src = iframe.src;
+    var iframe = document.getElementById('iframe2');
+    iframe.src = iframe.src;
+    var iframe = document.getElementById('iframe3');
+    iframe.src = iframe.src;
+  </script>
 </html>
