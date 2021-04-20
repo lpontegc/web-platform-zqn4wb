@@ -13,7 +13,6 @@
 }
 
 .tab {
-  width: fit-content;
   /*border: 1px solid rgb(0, 0, 0);*/
   border-radius: 5px;
   background-color:inherit;
@@ -25,7 +24,8 @@
 table{
 
   width:-moz-available;
-  width: fit-content;
+  width: -webkit-fill-available;
+  
   height: inherit;
 
 
@@ -33,7 +33,6 @@ table{
 tbody {
 
   width: -moz-available;
-  width: fit-content;
 
 
 }
@@ -72,6 +71,7 @@ text-align: center;
  border: 1px solid #000000;
  height: 150px;
  width:-moz-available;
+ width: -webkit-fill-available;
  margin:10px
 
 }
@@ -89,6 +89,7 @@ text-align: center;
   border: 1px solid #000000;
   height: 150px;
   width: -moz-available;
+  width: -webkit-fill-available;
   margin:10px
 
 }
