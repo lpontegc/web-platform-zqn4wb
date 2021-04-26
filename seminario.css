@@ -1,0 +1,46 @@
+.headbar{
+  background-color: #000000!important;
+  position:fixed;
+  width:100%;
+  z-index:1;
+  top:0;
+  left: 0;
+    }
+
+.contentbar{
+  color: white;
+  margin-left: 35px;
+    }
+.bodyContent{
+  background-color: white;
+  border: solid 10px;
+  border-color: white;
+}
+
+.card {
+  text-align: center;
+  overflow: auto;
+  background-color:black;
+  padding: 14px 16px;
+  border-radius: 10px;
+
+  box-shadow: 5px 5px 10px 10px rgb(204, 204, 204);
+  color: white;
+  width:-moz-available;
+  width: -webkit-fill-available;
+  margin:30px
+
+}
+
+.cardTitle{
+  text-align: left;
+  vertical-align: top;
+  border:solid 10px  pink;
+  border-bottom: solid 10px ;
+  width:100%;
+  top:0;
+  left: 0;
+}
+iframe{
+  border-radius: 5px;
+}
