@@ -74,3 +74,6 @@ ol{
   text-align: right;
   vertical-align: bottom;
 }
+@media print{
+  .pagebreak{page-break-before:always}
+}
