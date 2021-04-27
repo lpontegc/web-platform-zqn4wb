@@ -1,25 +1,61 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="/seminario.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
   <div class ="headbar">
     <div class="contentBar"> 
       <h2>07MBIG - Seminario</h2>
   </div>
+
     <div class="bodyContent">
-    
-      <div class="card card1">
-        <div class="cardTitle">
-          <p>HOLA</p>
-        </div>
+      <div class="generalInfo">
         
-          <iframe id = "iframe" width="885" height="348" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTPI05pVKKVpLv6qbrLie76iy1unMap2zf7aYboh3N2vTfHNN8QaGbo1gHxFSHp1J8GT448_odskD7s/pubchart?oid=1492183722&amp;format=interactive"></iframe>
-    
-        
+         <span class="material-icons">face</span> Nombre:  Luis Manuel Ponte Gonzalez-Calero
+        <br><span class="material-icons">public</span> Repositorio: 
+         <br><span class="material-icons">get_app</span> Fuente de datos: 
+         <a href='https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books-2009-2019'>https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books-2009-2019</a>
+
+
+         
       </div>
 
-      <div class="card"> 
+      <div>
+        <p> El objetivo de este trabajo consiste en hacer uso de las herramientas vistas en clase para crear una web que visualice información de un dataset elegido.<br><br> 
+        En este caso el dataset seleccionado se trata de un conjunto de datos que contiene información sobre el top 50 de los libros más vendidos en Amazon desde el año 2009 hasta el año 2019. 
+        Este dataset contiene la información mostrada a continuación:  </p>
+        <ol type="disc">
+          <li>Nombre del libro</li>
+          <li>Autor</li>
+          <li>Rating</li>
+          <li>Reviews</li>
+          <li>Precio</li>
+          <li>Año</li>
+          <li>Género</li>
+        </ol>
+        <p> Mediante esta información, se mostrarán diversas visualizaciones orientadas a un público lector que esté en busqueda de libros populares. De esta manera, podrán conocer más información sobre estos para así tomar su decisión a comprar uno de ellos. Para ello, se han utilizado las herramientas Tableau y DataWrapper</p>
       </div>
-    
+      <div class="card card1">
+        <div class="cardTitle">
+          <p>DATAWRAPPER</p>
+        </div>
+        <div class = "cardBody">
+          <iframe id = "iframe" width="905" height="348" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTPI05pVKKVpLv6qbrLie76iy1unMap2zf7aYboh3N2vTfHNN8QaGbo1gHxFSHp1J8GT448_odskD7s/pubchart?oid=1492183722&amp;format=interactive"></iframe>
+
+        </div>
+        
+      </div>
+<p> Como se puede observar en la imagen anterior, este gráfico nos muestra el top 15 de los libros con mayor precio entre los años 2009 y 2019.</p>
+      <div class="card card2">
+        <div class="cardTitle">
+          <p>TABLEAU DESKTOP</p>
+        </div>
+        <div class = "cardBody">
+          <a href="https://ibb.co/r5Z7qLp"><img src="https://i.ibb.co/SVKsH1m/TAbleau-sem3.png"  alt="TAbleau-sem3" border="0"></a>
+        </div>
+      </div>
+    <p> En este dashboard compuesto mediante la herramienta de Tableau Desktop podemos observar diferentes graficos.<br><br> El primero de ellos nos indica en una gráfica de lineas, la media de precio del top 50 de libros mas vendidos en Amazon por cada año. Esto nos permite ver como los precios de los libros más vendidos tienen una tendencia a ser más baratos a lo largo del tiempo<br><br> En este segundo gráfico podemos ver una distribución de los libros por precio y rating recibido, pudiendo ser filtrado por año de venta o precio de este. De esta manera, se puede observar la distribucion clara en base a precio y rating.</p>
+
     </div>
   </div>
   <script>

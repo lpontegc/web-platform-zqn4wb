@@ -1,6 +1,11 @@
+.body{
+  position: inherit;
+  overflow-y: scroll;
+}
+
 .headbar{
   background-color: #000000!important;
-  position:fixed;
+  position:absolute;
   width:100%;
   z-index:1;
   top:0;
@@ -16,7 +21,18 @@
   border: solid 10px;
   border-color: white;
 }
+.generalInfo {
+  overflow: auto;
+  background-color:rgba(255, 255, 255, 0.596);
+  padding: 14px 16px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 10px rgb(204, 204, 204);
+  color: black;
+  width:-moz-available;
+  width: -webkit-fill-available;
+  margin:30px
 
+}
 .card {
   text-align: center;
   overflow: auto;
@@ -33,14 +49,28 @@
 }
 
 .cardTitle{
-  text-align: left;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
   vertical-align: top;
-  border:solid 10px  pink;
-  border-bottom: solid 10px ;
+  border-bottom: solid 2px ;
   width:100%;
   top:0;
   left: 0;
+  margin-bottom: 15px;
 }
 iframe{
   border-radius: 5px;
+}
+
+p{
+  margin:35px
+}
+
+ol{
+  margin:35px
+}
+.material-icons{
+  text-align: right;
+  vertical-align: bottom;
 }
